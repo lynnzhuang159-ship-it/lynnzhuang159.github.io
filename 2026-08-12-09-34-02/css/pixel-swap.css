@@ -1,0 +1,53 @@
+/* ============================================================
+   PixelSwap —— React Bits 组件零依赖原生移植（DOM + WAAPI）
+   仅用于首页头图交互，不影响全站其它部分。
+   ============================================================ */
+
+.pixel-swap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  isolation: isolate;
+  outline: none;
+  cursor: pointer;
+}
+
+.pixel-swap__layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pixel-swap__layer[data-visible="false"] {
+  visibility: hidden;
+}
+
+.pixel-swap__grid {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.pixel-swap__pixel {
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  contain: paint;
+}
+
+.pixel-swap__pixel-content {
+  position: absolute;
+}
+
+/* 头图第二态：作品预览图铺满 */
+.hero__reveal-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

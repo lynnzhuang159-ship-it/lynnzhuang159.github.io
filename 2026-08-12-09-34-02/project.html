@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>项目 · Lynn Zhuang</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" id="nav-brand" href="index.html">Lynn Zhuang</a>
+      <button class="nav__toggle" aria-label="菜单">菜单</button>
+      <nav class="nav__links">
+        <a href="index.html">首页</a>
+        <a href="works.html">作品</a>
+        <a href="about.html">关于</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="project wrap" id="project-root" style="position: relative;">
+    <a class="back" id="p-back" href="works.html">← 返回作品</a>
+
+    <header data-reveal>
+      <p class="project__cat" id="p-cat"></p>
+      <h1 class="project__title" id="p-title"></h1>
+      <ul class="project__meta" id="p-meta"></ul>
+    </header>
+
+    <figure class="project__cover" data-reveal>
+      <img id="p-cover" src="" alt="" />
+    </figure>
+
+    <div class="project__body" id="p-desc" data-reveal></div>
+
+    <section class="project__gallery" id="p-gallery"></section>
+
+    <nav class="project__next" id="p-next" data-reveal></nav>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <a class="footer__mail" id="footer-mail" href="#">hello@yuyou.design</a>
+      <div class="footer__row">
+        <div class="footer__socials" id="footer-socials"></div>
+        <div class="footer__copy">© <span id="footer-year"></span> Lynn Zhuang. 保留所有权利。</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
