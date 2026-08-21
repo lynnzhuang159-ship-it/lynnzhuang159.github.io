@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
-  <rect width="800" height="600" fill="#f4f4f5"/>
-  <circle cx="400" cy="270" r="92" fill="none" stroke="#d6d6da" stroke-width="1.5"/>
-  <path d="M352 270 l34 34 l62 -70" fill="none" stroke="#b9b9bf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="400" y="430" text-anchor="middle" font-family="-apple-system, 'PingFang SC', 'Helvetica Neue', sans-serif" font-size="58" font-weight="600" fill="#16161a" letter-spacing="6">以往作品</text>
-  <text x="400" y="474" text-anchor="middle" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="18" letter-spacing="9" fill="#9a9aa1">PAST WORKS</text>
-</svg>
